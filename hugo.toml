@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/nayan924/hugo_blog/'
+baseURL = 'https://nayan924.github.io/hugo_blog/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'PaperMod'
