@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nayan924.github.io/hugo_blog/main/</loc>
-    <lastmod>2023-10-01T21:14:15+05:30</lastmod>
-  </url><url>
     <loc>https://nayan924.github.io/hugo_blog/categories/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -31,5 +28,8 @@
   </url><url>
     <loc>https://nayan924.github.io/hugo_blog/a/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nayan924.github.io/hugo_blog/main/</loc>
+    <priority>0</priority>
   </url>
 </urlset>
