@@ -5,25 +5,6 @@
     <link>https://nayan924.github.io/hugo_blog/categories/</link>
     <description>Recent content in Categories on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nayan924.github.io/hugo_blog/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Gardening</title>
-      <link>https://nayan924.github.io/hugo_blog/categories/gardening/</link>
-      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://nayan924.github.io/hugo_blog/categories/gardening/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sustainability</title>
-      <link>https://nayan924.github.io/hugo_blog/categories/sustainability/</link>
-      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://nayan924.github.io/hugo_blog/categories/sustainability/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://nayan924.github.io/hugo_blog/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
