@@ -1,4 +1,4 @@
 baseURL = 'https://pdl.ink'
 languageCode = 'en-us'
 title = 'DailyGraph'
-theme = 'PaperMods'
+theme = 'PaperMod'
