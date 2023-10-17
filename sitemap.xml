@@ -2,11 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pdl.ink/news/</loc>
+    <lastmod>2023-10-08T10:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://pdl.ink/</loc>
+    <lastmod>2023-10-08T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pdl.ink/news/global-fund-and-siemens-healthineers-to-accelerate-adoption-of-artificial-intelligence-for-tuberculo/</loc>
+    <lastmod>2023-10-08T10:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://pdl.ink/main/</loc>
     <lastmod>2023-10-01T21:14:15+05:30</lastmod>
-  </url><url>
-    <loc>https://pdl.ink/news/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://pdl.ink/news/74-lakh-whatsapp-accounts-banned-in-india/</loc>
   </url><url>
@@ -17,8 +24,6 @@
     <loc>https://pdl.ink/categories/</loc>
   </url><url>
     <loc>https://pdl.ink/news/choosing-a-life-partner-goes-to-the-root-of-right-to-life-cji/</loc>
-  </url><url>
-    <loc>https://pdl.ink/</loc>
   </url><url>
     <loc>https://pdl.ink/news/delhi-crowd-cheers-for-naveen-ul-haq-days-after-his-hug-with-virat-kohli-video-goes-viral/</loc>
   </url><url>
