@@ -1,0 +1,68 @@
+<!-- layouts/partials/movie-list.html -->
+<div class="container">
+    <div class="products">
+        <div class="row">
+            <!-- Grid View -->
+            <div class="tab-pane fade active in" id="grid" role="tabpanel">
+                <div class="products product-list">
+                    {{ $totalPages := .TotalPages }}
+                    {{ $index := 0 }}
+                    {{ range .Pages }}
+                        {{ if mod (add $index 1) 4 | eq 1 }}
+                            <div class="row">
+                        {{ end }}
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="movie-item-contents gradient">
+                                <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                                <div class="movie-item-content">
+                                    <div class="movie-item-content-top">
+                                    <div class="pull-left">
+                                        <span class="movie-count-time hover-left">{{ .Params.duration }}</span>
+                                    </div>
+                                    <div class="pull-right">
+                                        <div class="movie-ratting">
+                                            <a href=""><span class="fa fa-star"></span>{{ .Params.rating }}/20</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="movie-item-content-center">
+                                    <a href="{{ .Permalink }}" class="flat-icons" data-video-url="{{ .Params.videoUrl }}"><span class="flaticon-play-button"></span></a>
+                                </div>
+                                <div class="movie-item-content-buttom">
+                                    <div class="movie-item-title">
+                                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                    </div>
+                                    <div class="item-cat">
+                                        <ul>
+                                            <li><span>Category :</span><a href="{{ .Params.categoryURL }}">{{ .Params.category }}</a></li>
+                                        </ul>
+                                        <div class="item-cat-hover">
+                                            <ul>
+                                                <li><span>Release :</span><a href="">{{ .Params.releaseDate }}</a></li>
+                                                <li><span>Genre :</span><a href="">{{ .Params.genre }}</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item-beta">
+                                        <div class="movie-details">
+                                            <a href="{{ .Permalink }}" class="btn btn-button button-detals black-bg">Read More</a>
+                                        </div>
+                                        <div class="view-movie hover-right">
+                                            <a class="black-bg" href="">{{ .Params.views }} view</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <!-- ... (rest of your movie item content) ... -->
+                                </div>
+                            </div>
+                        </div>
+                        {{ $index = add $index 1 }}
+                        {{ if or (eq (add $index 1) $totalPages) (eq (mod $index 4) 0) }}
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

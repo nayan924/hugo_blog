@@ -2,3 +2,25 @@ baseURL = 'https://pdl.ink'
 languageCode = 'en-us'
 title = 'DailyGraph'
 theme = 'PaperMod'
+
+[[menu.main]]
+  name = "Home"
+  url = "a"
+  weight = 1
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 2
+
+[[menu.main]]
+  name = "Product"
+  url = "/products/"
+  weight = 3
+
+[[menu.main]]
+  name = "Blog"
+  url = "/news/"
+  weight = 4
+
+
